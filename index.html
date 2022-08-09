@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-dars</title>
+    <style>
+        *{
+            font-family:system-ui;
+        }
+        div{
+            display: flex;
+            width:40%;
+            justify-content: space-between;
+            margin-bottom:10px;
+        }
+
+        p{
+            font-size:30px;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        1st Number <input type="number" class="inp1">
+    </div>
+    <div>
+        2nd Number <input type="number" class="inp2">
+    </div>
+    <span>
+        <button onclick="PLUS()" class="plus">Multiply</button>
+        <button onclick="MINUS()" class="minus">Divide</button>
+    </span>
+
+    <h3>
+        The result is :
+    </h3>
+    <p class="p">
+
+    </p>
+
+    <script>
+        var oneST=document.querySelector('.inp1')
+        var twoND=document.querySelector('.inp2')
+        var p=document.querySelector('.p')
+
+        function PLUS(){
+            // var response
+            var response=twoND.value*oneST.value
+            p.innerText=response
+        }
+        function MINUS(){
+            // var response
+            var response=oneST.value/twoND.value
+            p.innerText=response
+        }
+    </script>
+</body>
+</html>
