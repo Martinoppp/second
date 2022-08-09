@@ -1,0 +1,22 @@
+$no:30px;
+$f:flex;
+$s:space-between;
+$fw:900;
+$mb:10px;
+$ff:system-ui;
+
+*{
+    font-family:$ff;
+}
+
+.p{
+    font-size:$no;
+    font-weight:$fw;
+}
+
+div{
+    display:$f;
+    width:50%;
+    justify-content:$s;
+    margin-bottom:$mb;
+}

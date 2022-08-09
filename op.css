@@ -1,0 +1,15 @@
+* {
+  font-family: system-ui;
+}
+
+.p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+div {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=op.css.map */
